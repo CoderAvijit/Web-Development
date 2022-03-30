@@ -1,0 +1,34 @@
+/*!
+ * Helping Hands v.1.0.0
+ * Copyright 2014 Artex Solutions.
+ * 
+ */
+
+a, a:hover, .color-theme, .event-box .text a:hover, .heading h2, .heading h3, .site-header .navbar-nav > li > a:hover, .navbar-nav > li:hover > a, .site-header .navbar-nav > .active > a, .site-header .navbar-nav > .active > a:hover, .site-header .navbar-nav > .active > a:focus, .site-header .navbar-nav > .open > a, .site-header .navbar-nav > .open > a:hover, .site-header .navbar-nav > .open > a:focus, .progress span.current-val, .widget_twitter > ul > li a.tweet-name, .mapbox .widget_contact a:hover, .donor-box .image figcaption a:hover, .options a:hover, .panel-title.active-heading, .progress-stats span.current-val,
+.team-box .image figcaption a:hover, .widget_categories li:hover:before, .widget_archive li:hover:before {
+	color:darkgreen
+}
+
+.bg-theme, .dropdown-menu > li > a:hover, .navbar-nav li ul a:hover, .navbar-nav li li:hover > a, .heading h2:before, .heading h2:after, .heading h4:before, .heading h4:after, .portfolio-box:hover a.more-link, .progress-bar, .btn-primary, .causes-box > figure figcaption .btn-default:hover, .pagination > li > a, .pagination > li > span, .caro-pagination a span, .caro-next:hover, .caro-prev:hover,  .highlight, .progress-fill-area .progress-fill, .scroll-up {
+	background-color:darkgreen;
+}
+
+.tp-bullets .bullet.selected {
+	background-color:darkblue !important;
+}
+
+.dropdown-menu,.btn-default:hover, .navbar-nav li ul, .newsletter-section, .form-control:focus, .footer, .site-header-2 .navbar-nav > li:hover > a, .site-header-2 .navbar-nav > li.active > a, .map-section {
+	border-color:darkblue;
+}
+
+.logo a svg ellipse,
+.logo a svg path,
+.logo a svg text {
+	fill:lightseagreen;
+}
+.logo a svg circle,
+.logo a svg #svg_7,
+.logo a svg #svg_11,
+.logo a svg #svg_12 {
+	stroke:lightseagreen;
+}

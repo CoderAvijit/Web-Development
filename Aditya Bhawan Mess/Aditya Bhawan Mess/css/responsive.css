@@ -1,0 +1,473 @@
+/*!
+ * Helping Hands v.1.0.0
+ * Copyright 2014 Artex Solutions.
+ * 
+ */
+
+@media (min-width: 480px) {
+.grid-1 > ul > li,
+.grid-2 > ul > li,
+.grid-3 > ul > li,
+.grid-4 > ul > li {
+	float:left;
+	width:100%;
+}
+}
+@media (min-width: 768px) {
+.grid-1 > ul > li,
+.grid-2 > ul > li,
+.grid-3 > ul > li,
+.grid-4 > ul > li,
+.grid-5 > ul > li,
+.grid-6 > ul > li {
+	width:50%;
+}
+.site-search {
+	margin-top: 22px;
+	margin-right:0px;
+}
+.site-bottom p {
+	margin-bottom:0px;
+	display:inline-block;	
+	text-align:left;
+}
+.site-bottom .social-links {
+	float:right;	
+}
+
+}
+@media (min-width: 992px) {
+.grid-1 > ul > li {
+	width:100%;	
+}
+.grid-2 > ul > li {
+	width:50%;
+}
+.grid-3 > ul > li {
+	width:33.333%;
+}
+.grid-4 > ul > li {
+	width:25%;
+}
+.grid-5 > ul > li {
+	width:20%;
+}
+.grid-6 > ul > li {
+	width:16.666%;
+}
+
+.sketched-progress {
+	padding-left:40px;
+}
+.progress-stats {
+	width:120px;
+	font-size:14px;
+}
+.progress-fill-area {
+	margin-left:120px;
+}
+
+}
+
+@media (min-width: 1200px) {
+.grid-1 > ul,
+.grid-2 > ul,
+.grid-3 > ul,
+.grid-4 > ul,
+.grid-5 > ul,
+.grid-6 > ul {
+	margin-left:-30px;	
+}
+.grid-1 > ul > li,
+.grid-2 > ul > li,
+.grid-3 > ul > li,
+.grid-4 > ul > li,
+.grid-5 > ul > li,
+.grid-6 > ul > li {
+	padding-left:30px;
+}
+
+.navbar-nav > li > a {
+	font-size:16px;	
+}
+
+.image-box {
+	margin-bottom:30px;
+}
+
+.causes-list .causes-box > figure {
+	width:220px;
+}
+.causes-list .causes-box .causes-detail {
+	margin-left:220px;
+}
+.causes-box > .causes-detail {
+	padding-left:30px;
+}
+.causes-list .causes-box .causes-detail .text {
+	width:530px;
+}
+.causes-list .causes-box .causes-detail .causes-msg {
+	margin-left:530px;
+	padding:20px 0px 20px 30px;
+}
+.causes-list .causes-box .causes-detail .causes-msg:before {
+	width:25px;
+	left:25px;
+
+	box-shadow:-7px 0 7px -8px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow:-7px 0 7px -8px rgba(0, 0, 0, 0.3);
+	-webkit-box-shadow:-7px 0 7px -8px rgba(0, 0, 0, 0.3);
+}
+
+}
+
+
+@media (max-width: 992px) {
+
+.navbar-nav > li > a {
+	padding:15px 10px 25px 10px;
+}
+.social-links li {
+	margin:0 2px;
+}
+
+.site-header-2 .counter {
+	display:none;	
+}
+	
+.portfolio-box,
+.portfolio-left,
+.donor-box,
+.team-box {
+	margin-bottom:30px;	
+}
+.newsletter-section input.btn[type="submit"] {
+	padding:14px 9px;
+}
+
+.causes-list .causes-box > figure {
+	width:130px;	
+}
+.causes-list .causes-box .causes-detail {
+	margin-left:130px;	
+}
+.mapbox {
+	margin-bottom:40px;	
+}
+
+.events-list .media > .pull-left,
+.projects-list .media > .pull-left {
+	width:200px;
+	margin-right:20px;	
+}
+
+.fullwidthbanner {
+	min-height:400px;
+}
+.fullwidthbanner h1,
+.fullwidthbanner h3,
+.fullwidthbanner .btn {
+	margin-left:15px;
+	margin-right:15px;	
+}
+.fullwidthbanner h1 {
+	font-size:40px;
+}
+.fullwidthbanner h3 {
+	font-size:30px;
+}
+.fullwidthbanner .btn {
+	padding:8px 22px;
+	font-size:14px;	
+}
+
+
+}
+@media (max-width: 768px) {
+
+.header-home {
+	position:relative;
+	background-color:rgba(0, 0, 0, 0.9); 
+}
+.fullwidthbanner {
+	min-height:300px;
+	max-height:300px;
+}
+.tp-bullets .bullet {
+	width:24px !important;	
+}
+.fullwidthbanner h1,
+.fullwidthbanner h3,
+.fullwidthbanner .btn {
+	margin:5px 15px;
+}
+.fullwidthbanner h1 {
+	font-size:30px;
+}
+.fullwidthbanner h3 {
+	font-size:20px;
+}
+.fullwidthbanner .btn {
+	padding:5px 18px;
+	font-size:14px;	
+}
+
+
+
+
+h4, .h4 {
+	font-size:20px;
+}
+.logo {
+	width:200px;	
+}
+.site-header .navbar-collapse {
+	float:none;
+}
+.nav-button {
+	display:block;
+	margin-top: 9px;
+}
+.site-search{ margin-top:14px;}
+.nav-button-desk {
+	visibility:hidden;
+}
+.tp-bar {
+	text-align:center;
+}
+.tp-bar .social-links {
+	padding-top:5px;
+	float:none;
+}
+.site-header-2 .social-links {
+	float:right;
+	padding-top:14px;
+}
+
+.sketched-progress {
+	margin-bottom:30px;
+	text-align:center;
+}
+.progress-stats {
+	float:none;
+	display:inline-block;
+	vertical-align:top;
+}
+.progress-fill-area {
+	margin-left:0px;
+	display:inline-block;
+	vertical-align:top;	
+}
+
+.newsletter-section {
+	text-align:center;	
+}
+.newsletter-section h4,
+.newsletter-section .form-control {
+	margin-bottom:20px;	
+}
+.newsletter-section .form-control {
+	text-align:left;
+}
+.testimonials figure {
+	width:100px;
+	height:117px;
+}
+.testimonials {
+	padding-left:50px;
+}
+.testimonials-section .caro-pagination {
+	margin-left:55px;	
+}
+
+.comment-box > figure {
+	top:10px;	
+}
+.comment-box .comment-bt {
+	padding-right:20px;	
+}
+.comment-box .comment-reply-link {
+	position:static;	
+}
+
+.causes-list .causes-box > figure,
+.causes-list .causes-box .causes-detail .causes-msg:before,
+.causes-list .causes-box .causes-detail .causes-msg p {
+	display:none;	
+}
+.logo a span{display:none}
+.causes-list .causes-box .causes-detail,
+.causes-list .causes-box .causes-detail .causes-msg {
+	margin-left:0px;
+	padding-left:0px;
+}
+.causes-list .causes-box .causes-detail .text {
+	width:auto;
+	float:none;	
+}
+.causes-list .causes-box .causes-detail .causes-msg {
+	padding-bottom:0px;
+}
+
+
+.caption h4 {
+	padding-right:0px;	
+}
+.caption .causes-pik {
+	top:-175px;
+	background-color:rgba(255,255,255,0.9);	
+}
+
+.ds-element + .ds-element {
+	padding-left:10px;
+}
+.ds-element-value {
+	font-size:20px;	
+}
+.ds-element-title {
+	font-size:12px;	
+}
+.hovered-strip figcaption .counter h6 {
+	font-size:14px;	
+}
+
+.about-box .about-snap {
+	width:200px;
+}
+.about-box .about-detail {
+	margin-left:200px;	
+}
+.skills {
+	margin-bottom:40px;	
+}
+
+.events-list .media > .pull-left {
+	width:150px;
+}
+.events-list .post-heading .date-tag {
+	float:none;
+	display:inline-block;	
+	margin-bottom:8px;
+}
+.events-list .post-heading .date-tag span {
+	display:inline-block;
+}
+}
+
+@media (max-width: 480px) {
+
+
+.fullwidthbanner h1 {
+	font-size:20px;
+}
+.fullwidthbanner h3 {
+	font-size:15px;
+}
+
+
+.logo > a,
+.logo > a img {
+	display:inline-block;	
+}
+
+.logo-bar .counter,
+.site-search {
+	display:none;
+}
+.site-header-2 .social-links {
+	float:none;
+	margin:auto;
+	text-align:left;
+}
+.progress-fill-area {
+	width:210px;
+	height:235px;
+}
+.progress-fill-area .sketch-fill {
+	background-size:cover;	
+	-moz-background-size:cover;	
+	-webkit-background-size:cover;	
+}
+.progress-stats {
+	width:75px;
+	height:235px;	
+}
+.progress-stats span + span {
+	margin-top:55px;
+	line-height:1.2;	
+}
+
+.causes-box {
+	margin-bottom:30px;	
+}
+.causes-box > figure {
+	width:auto;
+	float:none;	
+	display:none;
+}
+.causes-box > .causes-detail {
+	margin-left:0px;
+	padding-left:0px;	
+}
+.causes-box:hover .effect > p {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	
+	transform:translateY(0);
+	-moz-transform:translateY(0);
+	-webkit-transform:translateY(0);
+}
+.causes-box .effect .causes-hover {
+	position:static;
+	opacity: 1;
+	filter: alpha(opacity=100);
+	transform:translateY(0);
+	-moz-transform:translateY(0);
+	-webkit-transform:translateY(0);
+}
+.causes-detail .progress {
+	margin-bottom:40px;
+}
+.caption .causes-pik {
+	display:none;
+}
+.hovered-strip figcaption .date-tag {
+	width:auto;	
+}
+.date-tag span, .event-box-featured .text .event-date span {
+	display:inline-block;
+	margin-right:5px;	
+}
+.hovered-strip figcaption .counter {
+	display:none;
+}
+.hovered-strip figcaption .btm-wrap span:last-child {
+	float:none;	
+}
+.about-box .about-snap {
+	width:auto;
+	margin-right:0px;
+	float:none;
+}
+.about-box .about-detail {
+	margin-left:0px;	
+}
+
+.events-list .media > .pull-left,
+.projects-list .media > .pull-left {
+	width:auto;
+	margin-right:0px;
+	margin-bottom:20px;
+	float:none !important;
+}
+.events-list .media > .pull-left a.pull-left,
+.projects-list .media > .pull-left a.pull-left {
+	display:block;
+	float:none !important;
+}
+.events-list .media > .media-body {
+	clear:both;
+}
+
+}
