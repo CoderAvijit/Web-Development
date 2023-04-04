@@ -1,4 +1,3 @@
-
 // Get the add-to-cart buttons
 const addToCartButtons = document.querySelectorAll('.add-to-cart');
 
@@ -48,22 +47,23 @@ function updateCartUI() {
     cartItems.appendChild(li);
   });
   cartTotal.textContent = `RS.${total.toFixed(2)}`;
+
+  // Handle checkout button click
+  const checkoutButton = document.getElementById('checkout-button');
+  checkoutButton.addEventListener('click', () => {
+    for(var i=0; i<list.length; i++){
+      const productId = list[i];
+      const productCard = document.getElementById(productId);
+      productCard.remove();
+    }
+
+    // Clear the list array
+    list = [];
+
+    // Clear the cart array
+    cart = [];
+
+    // Update the cart UI
+    updateCartUI();
+  });
 }
-
-// Handle checkout button click
-
-const checkoutButton = document.getElementById('checkout-button');
-checkoutButton.addEventListener('click', () => {
-  // alert(`Total: Rs.${cartTotal.textContent}`);
-
-  for(var i=0; i<list.length; i++){
-    const productId = list[i];
-    const productCard = document.getElementById(productId);
-    productCard.remove();
-  }
-  
-  // Clear the cart array
-  cart = [];
-  
-  // Update the c
-});
