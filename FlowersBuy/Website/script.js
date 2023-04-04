@@ -65,6 +65,5 @@ checkoutButton.addEventListener('click', () => {
   // Clear the cart array
   cart = [];
   
-  // Update the cart UI
-  updateCartUI();
+  // Update the c
 });
