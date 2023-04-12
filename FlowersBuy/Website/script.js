@@ -80,8 +80,6 @@ function updateCartUI() {
     const li = document.createElement('li');
     li.innerHTML = `
       <span class="name">${item.name}</span>
-      <span class="quantity">${item.quantity}</span>
-      <span class="Id">${item.idName}</span>
       <span class="price">Rs.${(item.price * item.quantity).toFixed(2)}</span>
     `;
     cartItems.appendChild(li);
