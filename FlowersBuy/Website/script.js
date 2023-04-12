@@ -64,7 +64,8 @@ let cart = [];
 addToCartButtons.forEach(button => {
   button.addEventListener('click', () => {
     const productName = button.parentElement.querySelector('.name').textContent;
-    list.push(button.parentElement.id);
+    // list.push(button.parentElement.id);
+    // list.push(addToCartButtons.item);
     const id_Name = button.parentElement.id;
     const productPrice = parseFloat(button.getAttribute('data-price'));
     cart.push({ name: productName, price: productPrice, quantity: 1,idName:id_Name });
