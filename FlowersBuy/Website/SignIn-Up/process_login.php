@@ -9,13 +9,13 @@ while (($row = fgetcsv($file)) !== false) {
   if ($row[1] == $username && $row[3] == $password) {
     // User found, redirect to the dashboard
     fclose($file);
-    header('Location: dashboard.html');
+    echo "User logged in successfully";
     exit();
   }
 }
 
 // User not found, redirect to the login page with an error message
 fclose($file);
-header('Location: login.html?error=1');
+echo "User not found.Please signup first";
 exit();
 ?>
